@@ -89,6 +89,7 @@ jobs:
         rm -rf feeds/packages/net/shadowsocksr-libev/
         git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
         git clone https://github.com/xiaorouji/openwrt-passwall-packages package/luci-app-passwall-packages
+        git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 
     - name: Update Golang
       run: |
